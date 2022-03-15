@@ -3,3 +3,8 @@ Write a script to enter any word and check it is palindrom or not.
 Eg: naman
 
 naman is palindrom word.
+a=input("input any string")
+if(a==a[::-1]:
+  print("the string is pelidrome")
+else:
+  print("the string is not pelindrome")
